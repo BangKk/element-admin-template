@@ -4,7 +4,7 @@ import { i18n } from '../i18n';
 
 // Ajax config
 const config = {
-  baseURL: `/${i18n.locale}/api`,
+  baseURL: `/api`,
   apiTimeout: 30 * 1000,
   responseCode: {
     success: 0,

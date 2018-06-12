@@ -4,10 +4,10 @@ module.exports = {
     port: 80,
     disableHostCheck: true,
     proxy: {
-      '/cn/api': {
-        target: 'http://finance-api-dev.ankerjiedian.com',
+      '/api': {
+        target: 'http://yourApilocation.com',
         changeOrigin: true,
-        pathRewrite: { '^/cn/api': '' }
+        pathRewrite: { '^/api': '' }
       }
     }
   }

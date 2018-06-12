@@ -2,7 +2,7 @@ import { get, post } from './ajax';
 
 export default {
   login(data) {
-    // return post(`Passport/User/Login`, data);
+    // return post(`/login`, data);
     return Promise.resolve({
       name: 'admin',
       action_list: [
@@ -19,10 +19,10 @@ export default {
     });
   },
   logout() {
-    return get(`auth/logout`);
+    return get(`/logout`);
   },
   me() {
-    // return get(`auth/me`);
+    // return get(`/me`);
     return Promise.resolve({
       name: 'admin',
       action_list: [

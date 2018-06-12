@@ -2,7 +2,6 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
-import { languages } from './i18n';
 import NotFound from './views/ErrorViews/404.vue';
 
 Vue.use(Router);
